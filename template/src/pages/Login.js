@@ -13,7 +13,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { useSnackbar } from 'notistack';
 import { useForm } from 'react-hook-form';
 import Copyright from 'layouts/Copyright';
-import LoadButton from 'components/CustomButtons/LoadButton';
+import LoadButton from 'components/LoadButton/LoadButton';
 import { accountLogin } from 'api/account';
 import { loginSucceed } from 'reducers/account';
 
