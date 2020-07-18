@@ -20,21 +20,19 @@
       "react-spring": "^9.0.0-rc.3",
       "react-use-gesture": "^7.0.15",
       "redux": "^4.0.5",
-      "whatwg-fetch": "^3.0.0"
-    },
-    "scripts": {
-      "start": "react-app-rewired start",
-      "build": "react-app-rewired build",
-      "test": "react-app-rewired test"
-    },
-    "devDependencies": {
+      "whatwg-fetch": "^3.0.0",
       "babel-plugin-transform-imports": "^2.0.0",
       "customize-cra": "^0.9.1",
       "eslint-plugin-prettier": "^3.1.2",
       "http-proxy-middleware": "^1.0.3",
       "prettier": "^2.0.2",
       "react-app-rewired": "^2.1.5"
-    }
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test"
+    },
   }
 }
 
