@@ -1,7 +1,6 @@
-# cra-template
+# cra-template-material-ui-full
 
 This is a custom cra template use Material-UI for [Create React App](https://github.com/facebook/create-react-app).
-
 
 # included libs
 
