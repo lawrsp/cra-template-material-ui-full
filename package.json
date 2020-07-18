@@ -1,16 +1,19 @@
 {
   "name": "cra-template-material-ui-full",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a create react app template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lawrsp/cra-template-material-ui-full.git"
+    "url": "https://github.com/lawrsp/cra-template-material-ui-full"
   },
   "keywords": [
-    "cra",
+    "react",
+    "create-react-app",
+    "cra-template",
     "template",
     "material-ui"
   ],
+  "main": "template.json",
   "author": "lawrsp",
   "license": "MIT",
   "bugs": {
