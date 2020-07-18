@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import account from './account';
+import account, { logout } from './account';
 
 const appReducer = combineReducers({
   account
