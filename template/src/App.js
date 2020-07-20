@@ -4,14 +4,20 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import PageLoading from 'components/Loading/PageLoading';
 import SecurityRoutes from './pages/SecurityRoutes';
-import Login from './pages/Login';
 
 const routes = [
+  {
+    path: '/login',
+    component: 'login',
+    hideInMenu: true,
+    noLink: true,
+    exact: true,
+  },
   {
     path: '/admin',
     component: 'layouts/MainLayout',
     authority: 'admin',
-    name: '首页',
+    name: 'admin',
     hideInMenu: true,
     noLink: true,
     children: [],
@@ -38,12 +44,7 @@ function App() {
       >
         <Router>
           <Switch>
-            <Route exact path="/login">
-              <Login />
-            </Route>
-            <Route path="/">
-              <SecurityRoutes routes={routes} />
-            </Route>
+            <SecurityRoutes routes={routes} />
           </Switch>
         </Router>
       </SnackbarProvider>

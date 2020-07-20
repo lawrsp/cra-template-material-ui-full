@@ -7,6 +7,7 @@ import RouteConfigContext from 'components/Contexts/RouteConfigContext';
 import NotFound from './NotFound';
 
 const routesMap = {
+  login: React.lazy(() => import('pages/Login')),
   'layouts/MainLayout': React.lazy(() => import('layouts/MainLayout')),
   // TODO: other pages
 };
